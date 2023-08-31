@@ -61,8 +61,8 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <h1>Hello, {name}</h1>
-        <p>This is a custom storefront powered by Hydrogen</p>
+        <h1>Hello, world, i am {name}</h1>
+        <p>This is a custom storefront powered by Hydrogen and github.</p>
         <Outlet />
         <ScrollRestoration nonce={nonce} />
         <Scripts nonce={nonce} />
